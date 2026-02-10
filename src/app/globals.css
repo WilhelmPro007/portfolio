@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700;900&display=swap');
+}
+
+:root {
+  --primary-blue: #0070FF;
+  --secondary-cyan: #00D1FF;
+  --bg-deep: #050505;
+  --bg-darker: #0A0A0A;
+  --text-main: #FFFFFF;
+  --text-muted: #A0A0A0;
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --accent-glow: 0 0 20px rgba(0, 112, 255, 0.3);
+}
+
+@theme inline {
+  --color-primary-blue: var(--primary-blue);
+  --color-secondary-cyan: var(--secondary-cyan);
+  --color-bg-deep: var(--bg-deep);
+  --color-text-muted: var(--text-muted);
+  --font-outfit: 'Outfit', sans-serif;
+}
+
+body {
+  background-color: var(--bg-deep);
+  color: var(--text-main);
+  font-family: 'Outfit', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Glassmorphism Utilities */
+.glass-effect {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+}
+
+.blue-glow {
+  box-shadow: var(--accent-glow);
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-deep);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-blue);
+  border-radius: 10px;
+}
+
+/* Animaciones Base */
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-reveal {
+  animation: reveal 0.8s ease-out forwards;
+}

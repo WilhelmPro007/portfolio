@@ -1,0 +1,72 @@
+[
+    {
+        "title": "NeoArk Capital Fund",
+        "impact": "Democratizando inversiones mediante tokenización de activos inmobiliarios y agrícolas.",
+        "situation": "Se necesitaba una plataforma financiera innovadora para democratizar el acceso a inversiones tradicionalmente institucionales.",
+        "task": "Diseñar e implementar el flujo de inversión y visualización de activos tokenizados.",
+        "action": "Desarrollé el frontend y el backend integrando conceptos de Web3 y tokenización de activos de alta calidad.",
+        "result": "Plataforma funcional que permite a inversores minoristas acceder a oportunidades de alto rendimiento.",
+        "tags": [
+            "Fintech",
+            "Web3",
+            "Next.js",
+            "NestJS"
+        ]
+    },
+    {
+        "title": "Groveto",
+        "impact": "Plataforma All-in-one para reclutamiento global sin intermediarios.",
+        "situation": "El proceso de contratación tradicional es lento y costoso debido a las altas tarifas de los reclutadores.",
+        "task": "Desarrollar APIs robustas y una interfaz intuitiva para la gestión de búsqueda y contratación.",
+        "action": "Lideré el desarrollo de APIs en .NET e integré el frontend con Vite para la visualización dinámica de perfiles.",
+        "result": "Reducción significativa en los tiempos de contratación y eliminación de costos por intermediación.",
+        "tags": [
+            "HR Tech",
+            ".NET",
+            "Vite",
+            "API Design"
+        ]
+    },
+    {
+        "title": "Agromaps",
+        "impact": "Software agrícola de análisis de suelos para la optimización de cultivos.",
+        "situation": "Productores agrícolas carecían de herramientas digitales para analizar la salud del suelo y mejorar el rendimiento.",
+        "task": "Crear un ecosistema digital (Web/Mobile) para mapeo y análisis de datos de suelo.",
+        "action": "Desarrollé el backend con FastAPI y la app móvil con Flutter. Configuré la infraestructura en VPS con Nginx y Docker.",
+        "result": "Obtención de reconocimientos en Hackathon Nacional 2024/2025 y despliegue exitoso en producción.",
+        "tags": [
+            "Agrotech",
+            "FastAPI",
+            "Flutter",
+            "DevOps"
+        ]
+    },
+    {
+        "title": "Gnomo Studios",
+        "impact": "Transformación de diseños creativos en experiencias web de alto rendimiento.",
+        "situation": "Necesidad de una presencia web que reflejara el alto nivel creativo y de diseño del estudio.",
+        "task": "Garantizar la fidelidad del diseño y la calidad del código frontend.",
+        "action": "Trabajé como desarrollador frontend y QA, asegurando que cada pixel y animación cumpliera con los estándares de Gnomo.",
+        "result": "Sitio web oficial desplegado con éxito en la nube con un rendimiento excepcional.",
+        "tags": [
+            "Frontend",
+            "Vite",
+            "QA",
+            "Deployment"
+        ]
+    },
+    {
+        "title": "TecnoMediaShop",
+        "impact": "E-commerce especializado en tecnología con gestión integral de infraestructura.",
+        "situation": "Se requería una tienda online robusta, escalable y con una gestión simplificada de dominios y hosting.",
+        "task": "Construir la aplicación fullstack y gestionar el despliegue completo.",
+        "action": "Desarrollé el sistema completo usando Next.js y NestJS, manejando la configuración del servidor VPS y dominio.",
+        "result": "Tienda operativa con flujo de pago seguro y administración autogestionada.",
+        "tags": [
+            "E-commerce",
+            "Next.js",
+            "NestJS",
+            "VPS"
+        ]
+    }
+]
