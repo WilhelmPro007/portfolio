@@ -1,72 +1,65 @@
 [
     {
         "title": "NeoArk Capital Fund",
-        "impact": "Democratizando inversiones mediante tokenización de activos inmobiliarios y agrícolas.",
-        "situation": "Se necesitaba una plataforma financiera innovadora para democratizar el acceso a inversiones tradicionalmente institucionales.",
-        "task": "Diseñar e implementar el flujo de inversión y visualización de activos tokenizados.",
-        "action": "Desarrollé el frontend y el backend integrando conceptos de Web3 y tokenización de activos de alta calidad.",
-        "result": "Plataforma funcional que permite a inversores minoristas acceder a oportunidades de alto rendimiento.",
+        "impact": "Democratizando inversiones mediante la tokenización de activos.",
+        "description": "Integré Next.js y NestJS para la tokenización de activos inmobiliarios y agrícolas, facilitando el acceso a inversiones de alto rendimiento mediante tecnologías Web3.",
         "tags": [
             "Fintech",
             "Web3",
             "Next.js",
             "NestJS"
-        ]
+        ],
+        "imageUrl": "/projects/neoarkcapitalLanding.png",
+        "liveUrl": "https://www.neoarkcapital.io/"
     },
     {
         "title": "Groveto",
-        "impact": "Plataforma All-in-one para reclutamiento global sin intermediarios.",
-        "situation": "El proceso de contratación tradicional es lento y costoso debido a las altas tarifas de los reclutadores.",
-        "task": "Desarrollar APIs robustas y una interfaz intuitiva para la gestión de búsqueda y contratación.",
-        "action": "Lideré el desarrollo de APIs en .NET e integré el frontend con Vite para la visualización dinámica de perfiles.",
-        "result": "Reducción significativa en los tiempos de contratación y eliminación de costos por intermediación.",
+        "impact": "Plataforma de reclutamiento global sin intermediarios.",
+        "description": "Diseñé APIs en .NET e integré frontend con Vite para una plataforma que elimina los costos excesivos de reclutamiento, optimizando la búsqueda de talento global.",
         "tags": [
             "HR Tech",
             ".NET",
             "Vite",
             "API Design"
-        ]
+        ],
+        "imageUrl": "/projects/grovetoLanding.png"
     },
     {
         "title": "Agromaps",
-        "impact": "Software agrícola de análisis de suelos para la optimización de cultivos.",
-        "situation": "Productores agrícolas carecían de herramientas digitales para analizar la salud del suelo y mejorar el rendimiento.",
-        "task": "Crear un ecosistema digital (Web/Mobile) para mapeo y análisis de datos de suelo.",
-        "action": "Desarrollé el backend con FastAPI y la app móvil con Flutter. Configuré la infraestructura en VPS con Nginx y Docker.",
-        "result": "Obtención de reconocimientos en Hackathon Nacional 2024/2025 y despliegue exitoso en producción.",
+        "impact": "Software de análisis de suelos para optimización de cultivos.",
+        "description": "Construí un ecosistema digital con FastAPI y Flutter para el análisis de salud del suelo, obteniendo reconocimientos en hackathones nacionales y mejorando el rendimiento agrícola.",
         "tags": [
             "Agrotech",
             "FastAPI",
             "Flutter",
             "DevOps"
-        ]
+        ],
+        "imageUrl": "/projects/agromapsLanding.png"
     },
     {
         "title": "Gnomo Studios",
-        "impact": "Transformación de diseños creativos en experiencias web de alto rendimiento.",
-        "situation": "Necesidad de una presencia web que reflejara el alto nivel creativo y de diseño del estudio.",
-        "task": "Garantizar la fidelidad del diseño y la calidad del código frontend.",
-        "action": "Trabajé como desarrollador frontend y QA, asegurando que cada pixel y animación cumpliera con los estándares de Gnomo.",
-        "result": "Sitio web oficial desplegado con éxito en la nube con un rendimiento excepcional.",
+        "impact": "Experiencias web de alto rendimiento para estudios creativos.",
+        "description": "Aseguré la fidelidad creativa y técnica de sitios web premium como desarrollador Frontend y QA, garantizando un rendimiento superior y alineación con estándares de diseño de alta gama.",
         "tags": [
             "Frontend",
             "Vite",
             "QA",
             "Deployment"
-        ]
+        ],
+        "imageUrl": "/projects/gnomostudioLanding.png",
+        "liveUrl": "https://gnomostudio.com/"
     },
     {
-        "title": "TecnoMediaShop",
-        "impact": "E-commerce especializado en tecnología con gestión integral de infraestructura.",
-        "situation": "Se requería una tienda online robusta, escalable y con una gestión simplificada de dominios y hosting.",
-        "task": "Construir la aplicación fullstack y gestionar el despliegue completo.",
-        "action": "Desarrollé el sistema completo usando Next.js y NestJS, manejando la configuración del servidor VPS y dominio.",
-        "result": "Tienda operativa con flujo de pago seguro y administración autogestionada.",
+        "title": "TecnoMedia Shop",
+        "impact": "E-commerce fullstack con gestión integral de infraestructura.",
+        "description": "Desarrollé e implementé una tienda online completa con Next.js y NestJS, gestionando la infraestructura en VPS y dominios para una operatividad autónoma y segura.",
         "tags": [
             "E-commerce",
             "Next.js",
             "NestJS",
             "VPS"
-        ]
+        ],
+        "imageUrl": "/projects/tecnomediashopLanding.png",
+        "liveUrl": "https://tecnomediashop.net/"
     }
 ]

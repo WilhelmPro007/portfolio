@@ -45,7 +45,7 @@ const Hero = () => {
                         <span className="text-transparent border-text stroke-white" style={{ WebkitTextStroke: '1px white' }}>Reyes</span>
                     </h1>
 
-                    <p ref={subtitleRef} className="text-lg sm:text-2xl text-text-muted max-w-2xl font-light leading-relaxed">
+                    <p ref={subtitleRef} className="text-lg sm:text-2xl text-text-muted max-w-2xl leading-relaxed">
                         De la infraestructura al código: Desarrollador
                         <span className="text-white font-bold mx-2 italic">Fullstack & Mobile</span>
                         especializado en crear soluciones robustas desde la base.
@@ -55,9 +55,13 @@ const Hero = () => {
                         <button className="px-8 py-4 bg-primary-blue font-bold uppercase tracking-widest text-xs rounded-sm hover:-translate-y-1 transition-transform duration-300 blue-glow">
                             Ver Proyectos
                         </button>
-                        <button className="px-8 py-4 border border-white/20 font-bold uppercase tracking-widest text-xs rounded-sm hover:bg-white/5 transition-all duration-300">
+                        <a
+                            href="https://drive.google.com/file/d/15t9Vng4omZDkB_U4NtagJGXo5vEkAs85/view?usp=sharing"
+                            target="_blank"
+                            className="px-8 py-4 border border-white/20 font-bold uppercase tracking-widest text-xs rounded-sm hover:bg-white/5 transition-all duration-300 text-center"
+                        >
                             Descargar CV
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>

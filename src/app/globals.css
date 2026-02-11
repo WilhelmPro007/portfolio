@@ -8,13 +8,15 @@
 :root {
   --primary-blue: #0070FF;
   --secondary-cyan: #00D1FF;
-  --bg-deep: #050505;
-  --bg-darker: #0A0A0A;
+  --bg-deep: #0C0C0D;
+  /* Softer Charcoal Black */
+  --bg-darker: #121214;
   --text-main: #FFFFFF;
-  --text-muted: #A0A0A0;
-  --glass-bg: rgba(255, 255, 255, 0.03);
-  --glass-border: rgba(255, 255, 255, 0.1);
-  --accent-glow: 0 0 20px rgba(0, 112, 255, 0.3);
+  --text-muted: #A1A1AA;
+  /* More readable zinc color */
+  --glass-bg: rgba(255, 255, 255, 0.04);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --accent-glow: 0 0 25px rgba(0, 112, 255, 0.25);
 }
 
 @theme inline {
@@ -29,6 +31,10 @@ body {
   background-color: var(--bg-deep);
   color: var(--text-main);
   font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  /* Improved base size */
+  line-height: 1.7;
+  /* Better readability */
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
@@ -72,6 +78,21 @@ body {
   }
 }
 
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 0.1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.3;
+    transform: scale(1.05);
+  }
+}
+
 .animate-reveal {
   animation: reveal 0.8s ease-out forwards;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 4s ease-in-out infinite;
 }
