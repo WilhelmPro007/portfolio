@@ -45,9 +45,9 @@ const Navbar = () => {
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
     return (
-        <nav ref={navRef} className="fixed top-0 left-0 w-full z-50 glass-effect border-b border-white/5 bg-black/20 backdrop-blur-md">
+        <nav ref={navRef} className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ${isMenuOpen ? 'bg-bg-deep' : 'glass-effect border-b border-white/5 bg-black/20 backdrop-blur-md'}`}>
             <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-                <div className="flex items-center gap-2">
+                <div className={`flex items-center gap-2 transition-opacity duration-300 ${isMenuOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
                     <span className="text-xl font-black italic tracking-tighter text-primary-blue">WR</span>
                     <span className="hidden sm:inline-block h-4 w-[1px] bg-white/20 mx-2"></span>
                     <span className="hidden sm:inline-block text-sm font-semibold tracking-widest uppercase">Wilhelm Reyes</span>
@@ -74,13 +74,14 @@ const Navbar = () => {
             {/* Mobile Menu Overlay */}
             <div
                 ref={menuRef}
-                className="fixed inset-0 bg-bg-deep/95 backdrop-blur-xl hidden flex-col items-center justify-center space-y-10 z-40"
+                onClick={toggleMenu}
+                className="fixed top-0 left-0 w-screen h-screen bg-bg-deep/98 backdrop-blur-2xl hidden flex-col items-center justify-center space-y-10 z-40"
             >
                 <div className="flex flex-col items-center space-y-8 text-lg font-black uppercase tracking-[0.2em]">
-                    <Link onClick={toggleMenu} href="#proyectos" className="hover:text-primary-blue transition-colors">Proyectos</Link>
-                    <Link onClick={toggleMenu} href="#sobre-mi" className="hover:text-primary-blue transition-colors">Sobre mí</Link>
-                    <Link onClick={toggleMenu} href="#contacto" className="hover:text-primary-blue transition-colors">Contacto</Link>
-                    <Link onClick={toggleMenu} href="https://drive.google.com/file/d/15t9Vng4omZDkB_U4NtagJGXo5vEkAs85/view?usp=sharing" target="_blank" className="px-8 py-4 border border-primary-blue rounded-sm text-primary-blue blue-glow">Descargar CV</Link>
+                    <Link href="#proyectos" className="hover:text-primary-blue transition-colors">Proyectos</Link>
+                    <Link href="#sobre-mi" className="hover:text-primary-blue transition-colors">Sobre mí</Link>
+                    <Link href="#contacto" className="hover:text-primary-blue transition-colors">Contacto</Link>
+                    <Link href="https://drive.google.com/file/d/15t9Vng4omZDkB_U4NtagJGXo5vEkAs85/view?usp=sharing" target="_blank" className="px-8 py-4 border border-primary-blue rounded-sm text-primary-blue blue-glow">Descargar CV</Link>
                 </div>
             </div>
         </nav>
