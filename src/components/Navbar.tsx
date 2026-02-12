@@ -57,7 +57,7 @@ const Navbar = () => {
                 <div className="hidden md:flex gap-8 text-xs font-bold uppercase tracking-widest">
                     <Link href="#proyectos" className="py-2 hover:text-primary-blue transition-colors duration-300">Proyectos</Link>
                     <Link href="#sobre-mi" className="py-2 hover:text-primary-blue transition-colors duration-300">Sobre mí</Link>
-                    <Link href="https://drive.google.com/file/d/15t9Vng4omZDkB_U4NtagJGXo5vEkAs85/view?usp=sharing" target="_blank" className="py-2 px-4 border border-primary-blue rounded-sm hover:bg-primary-blue/10 transition-all duration-300 blue-glow">CV</Link>
+                    <Link href="https://drive.google.com/file/d/1PQrt8HJ1UUfKH2KGlY1ZjcHi6ru44yn9/view?usp=sharing" target="_blank" className="py-2 px-4 border border-primary-blue rounded-sm hover:bg-primary-blue/10 transition-all duration-300 blue-glow">CV</Link>
                 </div>
 
                 {/* Mobile Hamburger Button */}
@@ -81,7 +81,7 @@ const Navbar = () => {
                     <Link href="#proyectos" className="hover:text-primary-blue transition-colors">Proyectos</Link>
                     <Link href="#sobre-mi" className="hover:text-primary-blue transition-colors">Sobre mí</Link>
                     <Link href="#contacto" className="hover:text-primary-blue transition-colors">Contacto</Link>
-                    <Link href="https://drive.google.com/file/d/15t9Vng4omZDkB_U4NtagJGXo5vEkAs85/view?usp=sharing" target="_blank" className="px-8 py-4 border border-primary-blue rounded-sm text-primary-blue blue-glow">Descargar CV</Link>
+                    <Link href="https://drive.google.com/file/d/1PQrt8HJ1UUfKH2KGlY1ZjcHi6ru44yn9/view?usp=sharing" target="_blank" className="px-8 py-4 border border-primary-blue rounded-sm text-primary-blue blue-glow">Descargar CV</Link>
                 </div>
             </div>
         </nav>

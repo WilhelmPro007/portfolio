@@ -15,7 +15,7 @@ const Footer = () => {
                         <div className="flex flex-col gap-3 text-xs text-text-muted uppercase font-bold tracking-widest">
                             <a href="#proyectos" className="hover:text-primary-blue transition-colors">Proyectos</a>
                             <a href="#sobre-mi" className="hover:text-secondary-cyan transition-colors">Sobre mí</a>
-                            <a href="https://drive.google.com/file/d/15t9Vng4omZDkB_U4NtagJGXo5vEkAs85/view?usp=sharing" target="_blank" className="hover:text-primary-blue transition-colors">Descargar CV</a>
+                            <a href="https://drive.google.com/file/d/1PQrt8HJ1UUfKH2KGlY1ZjcHi6ru44yn9/view?usp=sharing" target="_blank" className="hover:text-primary-blue transition-colors">Descargar CV</a>
                         </div>
                     </div>
                     <div className="space-y-6">

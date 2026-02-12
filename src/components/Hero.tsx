@@ -56,7 +56,7 @@ const Hero = () => {
                             Ver Proyectos
                         </button>
                         <a
-                            href="https://drive.google.com/file/d/15t9Vng4omZDkB_U4NtagJGXo5vEkAs85/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1PQrt8HJ1UUfKH2KGlY1ZjcHi6ru44yn9/view?usp=sharing"
                             target="_blank"
                             className="px-8 py-4 border border-white/20 font-bold uppercase tracking-widest text-xs rounded-sm hover:bg-white/5 transition-all duration-300 text-center"
                         >
