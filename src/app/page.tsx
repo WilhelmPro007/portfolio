@@ -16,7 +16,7 @@ export default function Home() {
       {isLoading && <LoadingScreen onComplete={() => setIsLoading(false)} />}
       <main className={`min-h-screen transition-opacity duration-1000 ${isLoading ? 'opacity-0' : 'opacity-100'}`}>
         <Navbar />
-        <Hero />
+        <Hero isLoading={isLoading} />
         <ProjectList />
         <About />
         <Footer />

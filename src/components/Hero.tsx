@@ -4,12 +4,14 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { useRef } from 'react';
 
-const Hero = () => {
+const Hero = ({ isLoading }: { isLoading?: boolean }) => {
     const containerRef = useRef(null);
     const titleRef = useRef(null);
     const subtitleRef = useRef(null);
 
     useGSAP(() => {
+        if (isLoading) return;
+
         const tl = gsap.timeline();
 
         tl.from(titleRef.current, {
@@ -24,7 +26,7 @@ const Hero = () => {
                 duration: 1,
                 ease: 'power3.out'
             }, "-=0.8");
-    }, { scope: containerRef });
+    }, { scope: containerRef, dependencies: [isLoading] });
 
     return (
         <section ref={containerRef} className="relative min-h-[90vh] flex flex-col justify-center items-center px-8 overflow-hidden">
